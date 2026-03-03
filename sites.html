@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Mon Site Personnel</title>
+ 
+<style>
+
+body {
+
+    background-color: #F2B3BF;
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+}
+ 
+/* MENU en haut sous le titre */
+
+nav {
+
+    margin: 20px 0;
+
+}
+ 
+nav a {
+
+    text-decoration: none;
+
+    margin: 0 15px;
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+}
+ 
+/* Couleurs des liens */
+
+a:link {
+
+    color: #F2B3BF;
+
+}
+ 
+a:visited {
+
+    color: #F74060;
+
+}
+ 
+a:hover {
+
+    color: #F5962C;
+
+}
+ 
+img {
+
+    width: 300px;
+
+    margin: 10px;
+
+    border-radius: 10px;
+
+}
+ 
+iframe {
+
+    margin: 15px;
+
+}
+
+section {
+
+    margin: 50px 0;
+
+}
+</style>
+ 
+</head>
+<body>
+ 
+<h1>Bienvenue sur mon site</h1>
+ 
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#chevaux">Les chevaux</a>
+<a href="#mode">La mode</a>
+<a href="#cuisine">La cuisine</a>
+</nav>
+ 
+<!-- ACCUEIL -->
+<section id="accueil">
+<h2>Accueil</h2>
+<p>Je vous présente mes passions : les chevaux, la mode et la cuisine.</p>
+ 
+<img src="image.jpg">
+<img src="image2.jpg">
+<img src="defile.jpg">
+<img src="saut.jpg">
+ 
+<h3>Musique d'ambiance</h3>
+ 
+<audio id="musique" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+ 
+<button onclick="document.getElementById('musique').play()">Play</button>
+<button onclick="document.getElementById('musique').pause()">Pause</button>
+<button onclick="document.getElementById('musique').load()">Stop</button>
+</section>
+ 
+<!-- CHEVAUX -->
+<section id="chevaux">
+<h2>Les Chevaux</h2>
+<p>Les chevaux sont des animaux majestueux et intelligents.</p>
+ 
+<iframe width="400" height="250"
+
+src="https://www.youtube.com/embed/1uF6H9cZzE4"
+
+allowfullscreen></iframe>
+ 
+<iframe width="400" height="250"
+
+src="https://www.youtube.com/embed/0VYH9k3S2yY"
+
+allowfullscreen></iframe>
+</section>
+ 
+<!-- MODE -->
+<section id="mode">
+<h2>La Mode</h2>
+<p>La mode permet d’exprimer sa personnalité et son originalité.</p>
+ 
+<img src="vogue.jpg">
+<img src="lima.jpg">
+ 
+<iframe width="400" height="250"
+
+src="https://www.youtube.com/embed/Zi_XLOBDo_Y"
+
+allowfullscreen></iframe>
+</section>
+ 
+<!-- CUISINE-->
+<section id="cuisine">
+<h2>La cuisine</h2>
+<p>La cuisine est un passe temps intéressant.Un bon moment qu'on peut passer en famille</p>
+ 
+<img src="recette.jpg">
+<img src="tarte.jpg">
+ 
+<iframe width="400" height="250"
+
+src="https://www.youtube.com/embed/7E-cwdnsiow"
+
+allowfullscreen></iframe>
+</section>
+ 
+</body>
+</html>
+ 
